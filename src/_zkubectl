@@ -1,5 +1,4 @@
 #compdef zkubectl
-#autoload
 
 function _zkubectl {
     local line
