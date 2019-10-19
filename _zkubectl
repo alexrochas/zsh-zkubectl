@@ -1,0 +1,16 @@
+#compdef zkubectl
+#autoload
+
+function _zkubectl {
+    local line
+
+    case $words[2] in
+        login)
+            ctx=$(export KUBECTX_IGNORE_FZF=1; kubectx | fzf)
+
+            compadd $ctx
+        ;;
+    esac
+}
+
+_zkubectl
