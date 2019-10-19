@@ -13,6 +13,10 @@ antigen bundle alexrochas/zsh-zkubectl
 
 * Autocomplete `kubectl login` using [fuzzy-finder](https://github.com/junegunn/fzf).
 
+## FIX-ME
+
+I managed to make it work only when adding `compinit` explicitly to the end of `.zshrc` file.
+
 ## Meta
 
 Alex Rocha - [about.me](http://about.me/alex.rochas)
