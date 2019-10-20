@@ -1,6 +1,8 @@
 # zsh-zkubectl
 > completions to zkubectl
 
+![demo](demo.gif)
+
 ## Installation with [antigen](https://github.com/zsh-users/antigen)
 
 Add to your .zshrc
